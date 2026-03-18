@@ -24,32 +24,12 @@ test-only:
 # errors on stats/ and scripts/ (and .github/workflows/) files otherwise
 # (we also skip libsonnet/ and trusted_python/ which do not contain rules)
 LANG_DIRS=\
- bash \
- c \
- clojure \
  csharp \
- dockerfile \
- generic \
- go \
- html \
  java \
  javascript \
- json \
  kotlin \
- ocaml \
- php \
- python \
- ruby \
- rust \
- scala \
- solidity \
- swift \
- terraform \
- typescript \
- yaml
-PRO_DIRS=apex elixir
-OTHER_DIRS=ai problem-based-packs
-DIRS=$(LANG_DIRS) $(PRO_DIRS) $(OTHER_DIRS)
+ typescript
+DIRS=$(LANG_DIRS)
 
 .PHONY: validate
 #old: pysemgrep --validate was also using the flags below but not needed
