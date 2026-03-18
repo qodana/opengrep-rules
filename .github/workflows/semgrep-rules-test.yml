@@ -8,24 +8,21 @@ on:
     branches:
     - main
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   test-latest:
     name: rules-test-latest
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
-      with:
-        python-version: 3.9.2
-    # TODO: add a pip for opengrep
-    - name: install semgrep via pip
-      run: pip3 install semgrep
-    - name: remove stats directory
-      run: rm -rf stats
-    # TODO: fix the scan command using the opengrep binary, as the semgrep binary requires the parameter `--pro-languages` with auth to run the scan
-    - name: remove rules requiring Semgrep Pro
-      run: rm -rf apex elixir
+    - uses: actions/checkout@v4
+    - name: install opengrep
+      run: |
+        RELEASE_URL=$(curl -sf https://api.github.com/repos/jetbrains-qodana/opengrep/releases | jq -r '[.[] | select(.prerelease == true or .prerelease == false)] | first | .assets[] | select(.name == "opengrep_manylinux_x86") | .browser_download_url')
+        curl -sfL "$RELEASE_URL" -o /usr/local/bin/semgrep
+        chmod +x /usr/local/bin/semgrep
     - name: validate rules
-      run: semgrep validate . 
-    - name: run semgrep test
-      run: semgrep test .
+      run: make validate
+    - name: run tests
+      run: make test-oss-only
