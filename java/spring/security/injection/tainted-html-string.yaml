@@ -1,5 +1,5 @@
 rules:
-- id: tainted-html-string
+- id: java-spring-tainted-html-string
   languages:
   - java
   severity: ERROR

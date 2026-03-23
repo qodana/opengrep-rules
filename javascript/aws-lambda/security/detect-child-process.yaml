@@ -1,5 +1,5 @@
 rules:
-- id: detect-child-process
+- id: javascript-aws-lambda-detect-child-process
   message: >-
     Allowing spawning arbitrary programs or running shell processes with arbitrary arguments may end up
     in a command injection vulnerability.

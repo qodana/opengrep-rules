@@ -1,5 +1,5 @@
 rules:
-- id: tainted-html-string
+- id: javascript-aws-lambda-tainted-html-string
   message: >-
     Detected user input flowing into a manually constructed HTML string. You may be accidentally bypassing
     secure methods
