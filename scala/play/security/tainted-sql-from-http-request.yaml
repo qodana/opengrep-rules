@@ -1,5 +1,5 @@
 rules:
-- id: tainted-sql-from-http-request
+- id: scala-play-tainted-sql-from-http-request
   languages: [scala]
   severity: ERROR
   mode: taint

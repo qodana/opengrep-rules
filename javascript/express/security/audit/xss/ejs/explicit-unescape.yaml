@@ -1,5 +1,5 @@
 rules:
-- id: template-explicit-unescape
+- id: javascript-express-ejs-template-explicit-unescape
   message: >-
     Detected an explicit unescape in an EJS template, using
     '<%- ... %>' If external data can reach these locations,

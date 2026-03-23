@@ -1,5 +1,5 @@
 rules:
-- id: raw-html-format
+- id: python-flask-raw-html-format
   languages:
   - python
   severity: WARNING

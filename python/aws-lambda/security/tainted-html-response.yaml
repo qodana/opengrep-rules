@@ -1,5 +1,5 @@
 rules:
-- id: tainted-html-response
+- id: python-aws-lambda-tainted-html-response
   mode: taint
   pattern-sources:
   - patterns:

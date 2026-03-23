@@ -1,5 +1,5 @@
 rules:
-- id: ldap-injection
+- id: csharp-dotnet-ldap-injection
   message: LDAP queries are constructed dynamically on user-controlled input. This vulnerability in code
     could lead to an arbitrary LDAP query execution.
   severity: ERROR

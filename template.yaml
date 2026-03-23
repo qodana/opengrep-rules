@@ -1,5 +1,5 @@
 rules:
-  - id: eqeq-is-bad
+  - id: root-eqeq-is-bad
     pattern: $X == $X
     message: $X == $X is a useless equality check
     languages: [python]

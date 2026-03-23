@@ -1,5 +1,5 @@
 rules:
-- id: ssrf
+- id: csharp-lang-security-ssrf-http-client
   severity: ERROR
   languages:
   - csharp

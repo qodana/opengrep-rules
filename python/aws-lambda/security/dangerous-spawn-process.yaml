@@ -1,5 +1,5 @@
 rules:
-- id: dangerous-spawn-process
+- id: python-aws-lambda-dangerous-spawn-process
   mode: taint
   message: >-
     Detected `os` function with argument tainted by `event` object.

@@ -1,5 +1,5 @@
 rules:
-- id: jwt-none-alg
+- id: javascript-jose-jwt-none-alg
   message: >-
     Detected use of the 'none' algorithm in a JWT token.
     The 'none' algorithm assumes the integrity of the token has already

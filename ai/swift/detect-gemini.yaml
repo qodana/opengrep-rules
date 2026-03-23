@@ -1,5 +1,5 @@
 rules:
-  - id: detect-gemini
+  - id: ai-swift-detect-gemini
     languages:
       - swift
     severity: INFO

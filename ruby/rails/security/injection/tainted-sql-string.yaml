@@ -1,5 +1,5 @@
 rules:
-- id: tainted-sql-string
+- id: ruby-rails-tainted-sql-string
   languages:
   - ruby
   severity: ERROR

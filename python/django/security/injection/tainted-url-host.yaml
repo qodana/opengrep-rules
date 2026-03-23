@@ -1,5 +1,5 @@
 rules:
-- id: tainted-url-host
+- id: python-django-tainted-url-host
   languages:
   - python
   message: User data flows into the host portion of this manually-constructed URL. This could allow an

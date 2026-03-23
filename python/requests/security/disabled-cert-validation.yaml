@@ -1,5 +1,5 @@
 rules:
-- id: disabled-cert-validation
+- id: python-requests-disabled-cert-validation
   message: >-
     Certificate verification has been explicitly disabled. This
     permits insecure connections to insecure servers. Re-enable

@@ -1,5 +1,5 @@
 rules:
-- id: bad-hexa-conversion
+- id: java-lang-bad-hexa-conversion
   metadata:
     cwe:
     - 'CWE-704: Incorrect Type Conversion or Cast'

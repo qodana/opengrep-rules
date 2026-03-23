@@ -1,5 +1,5 @@
 rules:
-- id: curl-eval
+- id: yaml-github-actions-curl-eval
   languages:
   - yaml
   message: Data is being eval'd from a `curl` command. An attacker with control of the server in the `curl`

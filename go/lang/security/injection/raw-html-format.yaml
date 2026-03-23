@@ -1,5 +1,5 @@
 rules:
-- id: raw-html-format
+- id: go-lang-raw-html-format
   languages: [go]
   severity: WARNING
   message: >-

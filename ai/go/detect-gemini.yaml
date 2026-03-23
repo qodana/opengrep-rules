@@ -1,5 +1,5 @@
 rules:
-  - id: detect-gemini
+  - id: ai-go-detect-gemini
     languages:
       - go
     severity: INFO

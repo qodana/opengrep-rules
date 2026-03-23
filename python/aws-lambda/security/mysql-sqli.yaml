@@ -1,5 +1,5 @@
 rules:
-- id: mysql-sqli
+- id: python-aws-lambda-mysql-sqli
   languages:
   - python
   message: >-

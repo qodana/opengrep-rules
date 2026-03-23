@@ -1,5 +1,5 @@
 rules:
-- id: dangerous-system-call
+- id: python-lang-dangerous-system-call
   mode: taint
   options:
     symbolic_propagation: true

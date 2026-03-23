@@ -1,5 +1,5 @@
 rules:
-- id: template-explicit-unescape
+- id: javascript-express-pug-template-explicit-unescape
   message: >-
     Detected an explicit unescape in a Pug template, using either
     '!=' or '!{...}'. If external data can reach these locations,

@@ -1,5 +1,5 @@
 rules:
-- id: tainted-sql-string
+- id: php-lang-tainted-sql-string
   languages:
   - php
   severity: ERROR

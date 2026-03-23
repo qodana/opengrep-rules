@@ -1,5 +1,5 @@
 rules:
-- id: open-redirect
+- id: python-django-open-redirect
   message: >-
     Data from request ($DATA) is passed to redirect(). This is an open redirect and could be exploited.
     Ensure you are redirecting to safe URLs by using django.utils.http.is_safe_url().

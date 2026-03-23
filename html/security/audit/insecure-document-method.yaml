@@ -1,5 +1,5 @@
 rules:
-- id: insecure-document-method
+- id: html-insecure-document-method
   message: >-
     Detected the use of an inner/outerHTML assignment. 
     This can introduce a Cross-Site-Scripting (XSS) vulnerability if this 

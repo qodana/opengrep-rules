@@ -1,5 +1,5 @@
 rules:
-- id: tainted-html-string
+- id: python-aws-lambda-tainted-html-string
   languages:
   - python
   severity: WARNING

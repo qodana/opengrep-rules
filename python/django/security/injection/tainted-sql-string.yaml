@@ -1,5 +1,5 @@
 rules:
-- id: tainted-sql-string
+- id: python-django-tainted-sql-string
   message: >-
     Detected user input used to manually construct a SQL string. This is usually
     bad practice because manual construction could accidentally result in a SQL

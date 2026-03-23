@@ -1,5 +1,5 @@
 rules:
-- id: dangerous-system-call
+- id: python-aws-lambda-dangerous-system-call
   mode: taint
   message: >-
     Detected `os` function with argument tainted by `event` object.

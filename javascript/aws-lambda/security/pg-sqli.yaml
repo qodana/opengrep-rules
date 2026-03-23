@@ -1,5 +1,5 @@
 rules:
-- id: pg-sqli
+- id: javascript-aws-lambda-pg-sqli
   message: >-
     Detected SQL statement that is tainted by `$EVENT` object. This could lead to SQL injection if the
     variable is user-controlled

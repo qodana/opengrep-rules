@@ -1,5 +1,5 @@
 rules:
-- id: tainted-url-host
+- id: ruby-rails-tainted-url-host
   languages: [ruby]
   severity: WARNING
   message: >-

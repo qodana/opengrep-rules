@@ -1,5 +1,5 @@
 rules:
-- id: pg-sqli
+- id: go-lang-sqli-pg-sqli
   languages:
   - go
   message: >-

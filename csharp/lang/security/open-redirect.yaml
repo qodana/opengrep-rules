@@ -1,5 +1,5 @@
 rules:
-- id: open-redirect
+- id: csharp-lang-open-redirect
   mode: taint
   pattern-sources:
   - patterns:

@@ -1,5 +1,5 @@
 rules:
-- id: raw-html-format
+- id: ruby-rails-raw-html-format
   languages: [ruby]
   severity: WARNING
   message: >-

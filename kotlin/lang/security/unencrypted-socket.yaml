@@ -1,5 +1,5 @@
 rules:
-- id: unencrypted-socket
+- id: kotlin-lang-unencrypted-socket
   metadata:
     cwe:
     - 'CWE-319: Cleartext Transmission of Sensitive Information'

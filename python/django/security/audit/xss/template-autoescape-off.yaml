@@ -1,5 +1,5 @@
 rules:
-- id: template-autoescape-off
+- id: python-django-template-autoescape-off
   message: >-
     Detected a template block where autoescaping is explicitly
     disabled with '{% autoescape off %}'. This allows rendering of raw HTML

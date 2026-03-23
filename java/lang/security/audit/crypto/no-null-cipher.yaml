@@ -1,5 +1,5 @@
 rules:
-- id: no-null-cipher
+- id: java-lang-crypto-no-null-cipher
   patterns:
    - pattern-either:
       - pattern: new NullCipher(...);

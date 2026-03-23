@@ -1,5 +1,5 @@
 rules:
-- id: psycopg-sqli
+- id: python-aws-lambda-psycopg-sqli
   languages:
   - python
   message: >-

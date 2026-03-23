@@ -1,5 +1,5 @@
 rules:
-- id: tainted-url-host
+- id: java-spring-tainted-url-host
   languages:
   - java
   severity: ERROR

@@ -1,5 +1,5 @@
 rules:
-- id: eval-detected
+- id: python-lang-eval-detected
   patterns:
   - pattern-not: eval(f"")
   - pattern-not: eval("...")

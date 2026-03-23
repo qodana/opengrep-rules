@@ -1,5 +1,5 @@
 rules:
-- id: insecure-random
+- id: swift-lang-crypto-insecure-random
   message: >-
     A random number generator was detected which is **not** *guaranteed* to be
     Cryptographically secure. If the source of entropy is used for security

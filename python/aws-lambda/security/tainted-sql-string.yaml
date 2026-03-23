@@ -1,5 +1,5 @@
 rules:
-- id: tainted-sql-string
+- id: python-aws-lambda-tainted-sql-string
   languages:
   - python
   message: >-

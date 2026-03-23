@@ -1,5 +1,5 @@
 rules:
-- id: wildcard-assume-role
+- id: json-aws-wildcard-assume-role
   patterns:
   - pattern-inside: |
       "Statement": [...]

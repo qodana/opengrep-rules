@@ -1,5 +1,5 @@
 rules:
-- id: mass-assignment
+- id: python-django-mass-assignment
   languages: [python]
   severity: WARNING
   message: >-

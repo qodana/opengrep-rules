@@ -1,5 +1,5 @@
 rules:
-- id: avoid-raw
+- id: ruby-rails-templates-avoid-raw
   message: >-
     'raw' renders raw HTML, as the name implies. This means that normal
     HTML escaping is bypassed. If user data can be controlled here, this

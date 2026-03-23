@@ -1,5 +1,5 @@
 rules:
-  - id: eval-detected
+  - id: html-eval-detected
     message: >-
       Detected the use of eval(...). This can introduce 
       a Cross-Site-Scripting (XSS) vulnerability if this 

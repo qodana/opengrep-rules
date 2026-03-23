@@ -1,5 +1,5 @@
 rules:
-- id: mass-assignment
+- id: csharp-dotnet-mass-assignment
   message: Mass assignment or Autobinding vulnerability in code allows an attacker to execute over-posting
     attacks, which could create a new parameter in the binding request and manipulate the underlying object
     in the application.

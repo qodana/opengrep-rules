@@ -1,5 +1,5 @@
 rules:
-- id: tainted-sql-string
+- id: go-lang-tainted-sql-string
   languages: [go]
   message: >-
     User data flows into this manually-constructed SQL string. User data

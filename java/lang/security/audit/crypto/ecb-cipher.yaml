@@ -1,5 +1,5 @@
 rules:
-- id: ecb-cipher
+- id: java-lang-crypto-ecb-cipher
   metadata:
     functional-categories:
       - 'crypto::search::mode::javax.crypto'

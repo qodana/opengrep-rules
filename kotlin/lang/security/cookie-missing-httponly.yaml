@@ -1,5 +1,5 @@
 rules:
-- id: cookie-missing-httponly
+- id: kotlin-lang-cookie-missing-httponly
   metadata:
     cwe:
     - "CWE-1004: Sensitive Cookie Without 'HttpOnly' Flag"

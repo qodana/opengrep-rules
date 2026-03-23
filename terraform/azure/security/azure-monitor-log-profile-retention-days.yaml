@@ -1,5 +1,5 @@
 rules:
-- id: azure-monitor-log-profile-retention-days
+- id: terraform-azure-azure-monitor-log-profile-retention-days
   message: Ensure that Activity Log Retention is set 365 days or greater
   patterns:
     - pattern: resource

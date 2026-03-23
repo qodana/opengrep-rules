@@ -1,5 +1,5 @@
 rules:
-- id: use-of-rc4 
+- id: java-lang-crypto-use-of-rc4
   pattern: $CIPHER.getInstance("RC4") 
   metadata:
     functional-categories:

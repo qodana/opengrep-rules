@@ -1,5 +1,5 @@
 rules:
-- id: ldap-injection
+- id: java-lang-ldap-injection
   message: >-
     Detected non-constant data passed into an LDAP query. If this data can be
     controlled by an external user, this is an LDAP injection.

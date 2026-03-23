@@ -1,5 +1,5 @@
 rules:
-- id: avoid-html-safe
+- id: ruby-rails-templates-avoid-html-safe
   message: >-
     'html_safe' renders raw HTML. This means that normal
     HTML escaping is bypassed. If user data can be controlled here, this

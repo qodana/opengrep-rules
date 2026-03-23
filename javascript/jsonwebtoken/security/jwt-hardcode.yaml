@@ -1,5 +1,5 @@
 rules:
-- id: hardcoded-jwt-secret
+- id: javascript-jsonwebtoken-hardcoded-jwt-secret
   message: >-
     A hard-coded credential was detected. It is not recommended to store credentials in source-code,
     as this risks secrets

@@ -1,5 +1,5 @@
 rules:
-- id: dangerous-spawn-process
+- id: python-lang-dangerous-spawn-process
   mode: taint
   options:
     symbolic_propagation: true

@@ -1,5 +1,5 @@
 rules:
-- id: tainted-html-response
+- id: javascript-aws-lambda-tainted-html-response
   message: >-
     Detected user input flowing into an HTML response. You may be
     accidentally bypassing secure methods

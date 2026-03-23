@@ -1,5 +1,5 @@
 rules:
-- id: mysql-sqli
+- id: javascript-aws-lambda-mysql-sqli
   message: >-
     Detected SQL statement that is tainted by `$EVENT` object. This could lead to SQL injection if the
     variable is user-controlled

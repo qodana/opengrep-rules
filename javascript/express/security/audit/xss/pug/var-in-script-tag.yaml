@@ -1,5 +1,5 @@
 rules:
-- id: var-in-script-tag
+- id: javascript-express-pug-var-in-script-tag
   message: >-
     Detected a template variable used in a script tag.
     Although template variables are HTML escaped, HTML

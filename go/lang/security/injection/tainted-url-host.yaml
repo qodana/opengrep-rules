@@ -1,5 +1,5 @@
 rules:
-  - id: tainted-url-host
+  - id: go-lang-tainted-url-host
     languages:
       - go
     message: A request was found to be crafted from user-input `$REQUEST`. This can

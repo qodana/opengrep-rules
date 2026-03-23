@@ -1,5 +1,5 @@
 rules:
-- id: var-in-href
+- id: javascript-express-ejs-var-in-href
   message: >-
     Detected a template variable used in an anchor tag with
     the 'href' attribute. This allows a malicious actor to

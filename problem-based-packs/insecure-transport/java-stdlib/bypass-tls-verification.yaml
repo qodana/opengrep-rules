@@ -1,5 +1,5 @@
 rules:
-- id: bypass-tls-verification
+- id: insecure-transport-java-stdlib-bypass-tls-verification
   message: >-
     Checks for redefinitions of the checkServerTrusted function in the X509TrustManager class that disables
     TLS/SSL certificate

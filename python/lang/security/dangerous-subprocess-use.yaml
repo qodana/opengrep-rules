@@ -1,5 +1,5 @@
 rules:
-- id: dangerous-subprocess-use
+- id: python-lang-dangerous-subprocess-use
   mode: taint
   options:
     symbolic_propagation: true

@@ -1,5 +1,5 @@
 rules:
-  - id: useless-if-conditional
+  - id: python-lang-maintainability-useless-if-conditional
     message: if block checks for the same condition on both branches (`$X`)
     languages: [python]
     severity: WARNING
@@ -14,7 +14,7 @@ rules:
       category: maintainability
       technology:
         - python
-  - id: useless-if-body
+  - id: python-lang-maintainability-useless-if-body
     pattern: |
       if $X:
           $S

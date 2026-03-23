@@ -1,5 +1,5 @@
 rules:
-- id: template-autoescape-off
+- id: python-flask-template-autoescape-off
   message: >-
     Detected a segment of a Flask template where autoescaping is explicitly
     disabled with '{% autoescape off %}'. This allows rendering of raw HTML

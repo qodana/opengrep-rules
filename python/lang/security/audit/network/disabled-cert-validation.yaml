@@ -1,5 +1,5 @@
 rules:
-- id: disabled-cert-validation
+- id: python-lang-network-disabled-cert-validation
   patterns:
   - pattern-either:
     - pattern: urllib3.PoolManager(..., cert_reqs=$REQS, ...)

@@ -1,5 +1,5 @@
 rules:
-- id: insecure-random
+- id: scala-lang-insecure-random
   metadata:
     cwe:
     - 'CWE-330: Use of Insufficiently Random Values'

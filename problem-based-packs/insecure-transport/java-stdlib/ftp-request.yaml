@@ -1,5 +1,5 @@
 rules:
-- id: ftp-request
+- id: insecure-transport-java-stdlib-ftp-request
   message: >-
     Checks for outgoing connections to ftp servers. FTP does not encrypt traffic, possibly
     leading to PII being sent plaintext over the network.

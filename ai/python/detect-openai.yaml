@@ -1,5 +1,5 @@
 rules:
-  - id: detect-openai
+  - id: ai-python-detect-openai
     languages:
       - python
     severity: INFO

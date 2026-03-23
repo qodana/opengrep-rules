@@ -1,5 +1,5 @@
 rules:
-- id: bypass-tls-verification
+- id: insecure-transport-go-stdlib-bypass-tls-verification
   message: >-
     Checks for disabling of TLS/SSL certificate verification.
     This should only be used for debugging purposes because it leads to vulnerability to MTM attacks.

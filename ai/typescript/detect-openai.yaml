@@ -1,5 +1,5 @@
 rules:
-  - id: detect-openai
+  - id: ai-typescript-detect-openai
     languages:
       - js
       - ts

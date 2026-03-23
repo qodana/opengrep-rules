@@ -1,5 +1,5 @@
 rules:
-- id: anonymous-ldap-bind
+- id: java-lang-anonymous-ldap-bind
   metadata:
     cwe:
     - 'CWE-287: Improper Authentication'

@@ -1,5 +1,5 @@
 rules:
-- id: tainted-sql-string
+- id: scala-lang-tainted-sql-string
   languages:
   - scala
   severity: ERROR

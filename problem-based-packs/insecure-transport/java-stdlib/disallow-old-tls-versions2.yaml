@@ -1,5 +1,5 @@
 rules:
-- id: disallow-old-tls-versions2
+- id: insecure-transport-java-stdlib-disallow-old-tls-versions2
   message: >-
     Detects setting client protocols to insecure versions of TLS and SSL.
     These protocols are deprecated due to POODLE, man in the middle attacks, and other vulnerabilities.

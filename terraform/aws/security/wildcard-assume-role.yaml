@@ -1,5 +1,5 @@
 rules:
-- id: wildcard-assume-role
+- id: terraform-aws-wildcard-assume-role
   patterns:
   - pattern-inside: |
       resource "aws_iam_role" $NAME {

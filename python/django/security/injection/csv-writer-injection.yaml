@@ -1,5 +1,5 @@
 rules:
-- id: csv-writer-injection
+- id: python-django-csv-writer-injection
   languages:
   - python
   message: Detected user input into a generated CSV file using the built-in `csv` module. If user data

@@ -1,5 +1,5 @@
 rules:
-- id: aws-fsx-lustre-filesystem-encrypted-with-cmk
+- id: terraform-aws-security-aws-fsx-lustre-filesystem-encrypted-with-cmk
   patterns:
   - pattern: |
       resource "aws_fsx_lustre_file_system" $ANYTHING {

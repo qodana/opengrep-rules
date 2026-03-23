@@ -1,5 +1,5 @@
 rules:
-- id: curl-eval
+- id: bash-curl-curl-eval
   severity: WARNING
   languages:
   - bash

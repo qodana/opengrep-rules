@@ -1,5 +1,5 @@
 rules:
-- id: pg-sqli
+- id: ruby-aws-lambda-pg-sqli
   languages:
   - ruby
   message: >-

@@ -1,5 +1,5 @@
 rules:
-- id: dangerous-subprocess-use
+- id: python-aws-lambda-dangerous-subprocess-use
   mode: taint
   message: >-
     Detected subprocess function with argument tainted by an `event` object. 

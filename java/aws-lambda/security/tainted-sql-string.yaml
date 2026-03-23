@@ -1,5 +1,5 @@
 rules:
-- id: tainted-sql-string
+- id: java-aws-lambda-tainted-sql-string
   languages: [java]
   severity: ERROR
   message: >-

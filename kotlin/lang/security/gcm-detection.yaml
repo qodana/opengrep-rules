@@ -1,5 +1,5 @@
 rules:
-- id: gcm-detection
+- id: kotlin-lang-gcm-detection
   metadata:
     category: security
     cwe:

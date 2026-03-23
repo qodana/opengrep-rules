@@ -1,5 +1,5 @@
 rules:
-- id: http-request
+- id: insecure-transport-js-node-http-request
   message: >-
     Checks for requests sent to http:// URLs. This is dangerous as the server is attempting to connect
     to a website

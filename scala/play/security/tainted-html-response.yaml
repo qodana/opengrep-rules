@@ -1,5 +1,5 @@
 rules:
-- id: tainted-html-response
+- id: scala-play-tainted-html-response
   mode: taint
   metadata:
     category: security

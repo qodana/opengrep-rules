@@ -1,5 +1,5 @@
 rules:
-- id: unencrypted-socket
+- id: java-lang-crypto-unencrypted-socket
   metadata:
     functional-categories:
       - 'net::search::crypto-config::java.net'

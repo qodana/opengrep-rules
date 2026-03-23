@@ -1,5 +1,5 @@
 rules:
-- id: raw-html-format
+- id: javascript-express-raw-html-format
   message: >-
     User data flows into the host portion of this manually-constructed HTML.
     This can introduce a Cross-Site-Scripting (XSS) vulnerability if this comes from user-provided input.

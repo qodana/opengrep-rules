@@ -1,5 +1,5 @@
 rules:
-- id: command-injection-formatted-runtime-call
+- id: java-lang-command-injection-formatted-runtime-call
   patterns:
   - metavariable-pattern:
       metavariable: $RUNTIME

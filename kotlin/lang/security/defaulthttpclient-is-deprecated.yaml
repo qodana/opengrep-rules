@@ -1,5 +1,5 @@
 rules:
-- id: defaulthttpclient-is-deprecated
+- id: kotlin-lang-defaulthttpclient-is-deprecated
   metadata:
     cwe:
     - 'CWE-326: Inadequate Encryption Strength'

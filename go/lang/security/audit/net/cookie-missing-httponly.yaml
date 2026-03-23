@@ -1,5 +1,5 @@
 rules:
-- id: cookie-missing-httponly
+- id: go-lang-net-cookie-missing-httponly
   patterns:
   - pattern-not-inside: |
       http.Cookie{

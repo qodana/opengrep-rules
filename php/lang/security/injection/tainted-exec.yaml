@@ -1,5 +1,5 @@
 rules:
-- id: tainted-exec
+- id: php-lang-security-injection-tainted-exec
   languages:
   - php
   severity: WARNING

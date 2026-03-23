@@ -1,5 +1,5 @@
 rules:
-- id: tainted-url-host
+- id: php-lang-tainted-url-host
   languages:
   - php
   severity: WARNING

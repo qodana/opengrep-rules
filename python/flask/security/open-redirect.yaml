@@ -1,5 +1,5 @@
 rules:
-- id: open-redirect
+- id: python-flask-open-redirect
   patterns:
   - pattern-inside: |
       @$APP.route(...)

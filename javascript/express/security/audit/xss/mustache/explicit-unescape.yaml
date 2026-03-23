@@ -1,5 +1,5 @@
 rules:
-- id: template-explicit-unescape
+- id: javascript-express-mustache-template-explicit-unescape
   message: >-
     Detected an explicit unescape in a Mustache template, using
     triple braces '{{{...}}}' or ampersand '&'. If external data

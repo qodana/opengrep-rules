@@ -1,5 +1,5 @@
 rules:
-- id: tainted-exec
+- id: php-lang-security-tainted-exec
   mode: taint
   pattern-sources:
   - pattern: $_REQUEST

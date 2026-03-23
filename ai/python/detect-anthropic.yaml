@@ -1,5 +1,5 @@
 rules:
-  - id: detect-anthropic
+  - id: ai-python-detect-anthropic
     languages:
       - python
     severity: INFO

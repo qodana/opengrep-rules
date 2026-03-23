@@ -1,5 +1,5 @@
 rules:
-  - id: open-redirect
+  - id: go-lang-open-redirect
     languages: [ go ]
     severity: WARNING
     message: An HTTP redirect was found to be crafted from user-input `$REQUEST`.

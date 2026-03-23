@@ -1,5 +1,5 @@
 rules:
-- id: seccomp-confinement-disabled
+- id: yaml-kubernetes-seccomp-confinement-disabled
   patterns:
   - pattern-inside: |
       containers:

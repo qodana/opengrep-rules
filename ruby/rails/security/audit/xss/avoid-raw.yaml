@@ -1,5 +1,5 @@
 rules:
-- id: avoid-raw
+- id: ruby-rails-avoid-raw
   metadata:
     source-rule-url: https://github.com/presidentbeef/brakeman/blob/main/lib/brakeman/checks/check_cross_site_scripting.rb
     owasp:

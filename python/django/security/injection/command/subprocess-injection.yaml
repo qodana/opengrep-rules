@@ -1,5 +1,5 @@
 rules:
-- id: subprocess-injection
+- id: python-django-command-subprocess-injection
   languages: [python]
   mode: taint
   options:

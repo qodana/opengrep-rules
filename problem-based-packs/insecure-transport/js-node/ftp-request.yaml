@@ -1,5 +1,5 @@
 rules:
-- id: ftp-request
+- id: insecure-transport-js-node-ftp-request
   message: >-
     Checks for lack of usage of the "secure: true" option when sending ftp requests through the nodejs
     ftp module.
