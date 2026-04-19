@@ -1,0 +1,28 @@
+name: semgrep-rules-test
+
+on:
+  pull_request:
+    branches:
+    - main
+  push:
+    branches:
+    - main
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  test-latest:
+    name: rules-test-latest
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: install opengrep
+      run: |
+        RELEASE_URL=$(curl -sf https://api.github.com/repos/jetbrains-qodana/opengrep/releases | jq -r '[.[] | select(.prerelease == true or .prerelease == false)] | first | .assets[] | select(.name == "opengrep_manylinux_x86") | .browser_download_url')
+        curl -sfL "$RELEASE_URL" -o /usr/local/bin/semgrep
+        chmod +x /usr/local/bin/semgrep
+    - name: validate rules
+      run: make validate
+    - name: run tests
+      run: make test-oss-only
